@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 300;
+  width: 20vw;
+  padding: 0 0 0 5vw;
+}
+
+header {
+flex-wrap: wrap;
+display: flex;
+background: #13131b;
+align-items: center;
+text-align: center;
+width: 100%;
+color:#7b9dbdd0;
+justify-content: space-between;
+font-size: x-large;
+font-family: 'Courier New', Courier, monospace;
+font-weight:500;
+flex-direction: row;
+}
+
+#menu {
+  width: 50vw;
+  top: 0;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0 5vw 0 0;
+}
+
+#menu li {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  color: #7b9dbdd0;
+}
+
+.link {  
+  color:  #7b9dbdd0;
+  padding: 10px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-table;
+  font-size: 23px;
+  margin: 4px 2px;
+  cursor:pointer;
+}
+
+.link:hover {
+  color: rgb(189, 159, 115);
+}
+
+.mepic {
+  display: flex;
+  height: 30vh;
+  border-radius: 10%;
+  width: 15%;
+
+}
+
+.herobox {
+  background-image: url("/challange/week2/Codys-portfolio/assets/images/colorado.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+}
+
+.container {
+  padding: 5vw 10vw 5vw 10vw;
+}
+
+footer {
+padding: 50px;
+display: flex;
+background: #13131b;
+align-items: center;
+color:#7b9dbdd0;
+justify-content: space-between;
+font-family: 'Courier New', Courier, monospace;
+font-weight:500;
+height: 1vh;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+overflow:auto;
+height: 100%;
+}
+
+section {
+  border: 3px solid #13131b;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #7b9dbdd0;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+}
+#subtitle {
+  position: relative;  
+  text-align: center;
+  top: 23vh;
+  width: 90vw;  
+  font-size: large ;
+}
+#aboutMe {
+  background-image: url(/challange/week2/Codys-portfolio/assets/images/IMG_1934.JPG);
+  background-size:cover;
+  background-position: center;
+  min-height:70vh;
+  
+
+}
+.box1 {
+  background-color: #13131b;
+  color: #7b9dbdd0;
+  background-position: center;
+}
+#projects {
+  background-image: url(/challange/week2/Codys-portfolio/assets/images/jarron.jpeg);
+  background-size: cover;
+  background-position: bottom 25px;
+  min-height: 70vh;
+  background-size:100%;
+}
+.box2 {
+  background-color: #13131b;
+  background-position: center;
+  color: #7b9dbdd0;
+}
+#resume {
+  background-image: url(/challange/week2/Codys-portfolio/assets/images/IMG_0229.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+  background-size: auto;
+  background-size:52%;
+
+}
+
+div.container {
+  background-color: #13131b;
+}
+.box3 {
+  background-color: #13131b;
+  background-position: center;
+  color: #7b9dbdd0;
+}
